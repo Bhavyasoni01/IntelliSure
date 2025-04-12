@@ -107,7 +107,7 @@ const NewClaim = () => {
     setIsChatLoading(true);
 
     try {
-      const ai = new GoogleGenAI({ apiKey: "AIzaSyA5fBhCfDHM8KeUSZjeitAUsW3QXV089Hc" });
+      const ai = new GoogleGenAI({ apiKey: "" });
 
       const response = await ai.models.generateContent({
         model: "gemini-2.0-flash",
